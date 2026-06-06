@@ -1,0 +1,47 @@
+{
+  "schema": "wren_public_review_evidence.v1",
+  "generated_for": "external technical review",
+  "privacy_posture": "sanitized_summary_only",
+  "latest_black_box_puzzle_trial": {
+    "verdict": "LEGIT_BLACKBOX_SIGNAL_CONFIRMED",
+    "seal": "5eb2a889089db874773e03a177a2195cac94f4ebef5bcc57255babcbbdeae10c",
+    "audit_chain": "b61001913ac971d1677749230f9781e4dd97cf3547e3357d7a09c5e037178a28",
+    "attempted_total": 406,
+    "wren_solved_total": 168,
+    "arc_agi_training_exact": "162/400",
+    "full_suite_exact": "168/406",
+    "weak_baseline_solved_total": 0,
+    "note": "Local black-box puzzle probe; the review kit does not include full private solver or benchmark data."
+  },
+  "fingerprint_validation": {
+    "federalist_source": "https://www.gutenberg.org/files/1404/1404-0.txt",
+    "essays_parsed": 85,
+    "function_word_features": 94,
+    "leave_one_out_accuracy": 0.96923077,
+    "all_disputed_papers_predicted_madison": true,
+    "seal": "51bf156e1bb064d0b7e14e926ff231a215b9f7e3e78f7c37e0c4300f57ebca15"
+  },
+  "operator_genealogy": {
+    "seal": "d5f1d6d34f0d3663945685915f14ea048acd9ce2209681cc37aafb2af0e06f34",
+    "audit_chain": "c2a52752d89a9656f7db897aee192d270769aea70dda048f31e28e87124735b0",
+    "operator_families_with_current_wins": 15,
+    "winning_operators_at_report_time": 142,
+    "operators_with_half_life_ge_20_passes": 98,
+    "strong_bloodlines": [
+      "marker_role_relation",
+      "symmetry_transform",
+      "room_authority",
+      "absence_void",
+      "compression_readout",
+      "anchor_bridge_relation"
+    ]
+  },
+  "redteam_mvrh": {
+    "verdict": "HARVEST_GOLD_QUARANTINE_SHELL",
+    "seal": "61d37e7ce6c7acd6230214488d887dabb79502213c597043d299b43b818e30f3",
+    "audit_chain": "6abd5aafbffed2c988491f974bc4f5d2ea26c0cc0562b9a9ee48c61d61496bdc",
+    "adversarial_action": "QUARANTINE",
+    "adversarial_risk": 0.38
+  }
+}
+

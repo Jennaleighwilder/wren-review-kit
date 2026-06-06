@@ -1,0 +1,10 @@
+[project]
+name = "wren-review-kit"
+version = "0.1.0"
+description = "Sanitized local review kit for Wren cognitive architecture evidence."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
