@@ -4,14 +4,15 @@
 
 - Verdict: `LEGIT_BLACKBOX_SIGNAL_CONFIRMED`
 - Attempted total: `406`
-- Wren solved total: `168`
-- ARC-AGI training exact: `162/400`
-- Full suite exact: `168/406`
+- Wren solved total: `173`
+- ARC-AGI training exact: `167/400`
+- Full suite exact: `173/406`
 - Weak baseline solved: `0`
-- Seal: `5eb2a889089db874773e03a177a2195cac94f4ebef5bcc57255babcbbdeae10c`
-- Audit chain: `b61001913ac971d1677749230f9781e4dd97cf3547e3357d7a09c5e037178a28`
+- Seal: `cc1b6c42fc8284d14d285f7c45894b4e36acebc6ae34a1497c1f8622d0b1842c`
+- Audit chain: `6645472d1a8f046eb4df1f3a12a40056fcdeb52117a4eb096e765563fff98ae8`
+- Previous run (162/400): seal `5eb2a889089db874773e03a177a2195cac94f4ebef5bcc57255babcbbdeae10c`
 
-Interpretation: Wren is not a broad ARC winner yet. The important signal is that a growing, sealed, exact-output operator system exists and is measurable.
+Interpretation: Wren is not a broad ARC winner yet. The important signal is that a growing, sealed, exact-output operator system exists, is measurable, and **improves under a regression-safe loop** — the `162 → 167` gain (see `EVOLUTION_LOG.md`) was achieved without losing any previously solved task, and a sanitized slice is reproducible via `scripts/reproduce_arc_sample.py`.
 
 ## Measurement-Layer Yield
 

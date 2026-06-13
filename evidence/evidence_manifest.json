@@ -4,14 +4,16 @@
   "privacy_posture": "sanitized_summary_only",
   "latest_black_box_puzzle_trial": {
     "verdict": "LEGIT_BLACKBOX_SIGNAL_CONFIRMED",
-    "seal": "5eb2a889089db874773e03a177a2195cac94f4ebef5bcc57255babcbbdeae10c",
-    "audit_chain": "b61001913ac971d1677749230f9781e4dd97cf3547e3357d7a09c5e037178a28",
+    "seal": "cc1b6c42fc8284d14d285f7c45894b4e36acebc6ae34a1497c1f8622d0b1842c",
+    "audit_chain": "6645472d1a8f046eb4df1f3a12a40056fcdeb52117a4eb096e765563fff98ae8",
+    "previous_seal_162": "5eb2a889089db874773e03a177a2195cac94f4ebef5bcc57255babcbbdeae10c",
     "attempted_total": 406,
-    "wren_solved_total": 168,
-    "arc_agi_training_exact": "162/400",
-    "full_suite_exact": "168/406",
+    "wren_solved_total": 173,
+    "arc_agi_training_exact": "167/400",
+    "full_suite_exact": "173/406",
     "weak_baseline_solved_total": 0,
-    "note": "Local black-box puzzle probe; the review kit does not include full private solver or benchmark data."
+    "evolution_2026_06_13": "Added 3 general operators (symmetry occlusion repair, occlusion patch readout, self-fractal expansion); solved count 162->167 training, regression-safe, every gain exact-match verified. Reproduce the gained-task slice with scripts/reproduce_arc_sample.py.",
+    "note": "Local black-box puzzle probe; the kit does not include the full private solver. A runnable sanitized slice is in scripts/reproduce_arc_sample.py over evidence/arc_sample_tasks/ (public ARC-AGI data)."
   },
   "fingerprint_validation": {
     "federalist_source": "https://www.gutenberg.org/files/1404/1404-0.txt",

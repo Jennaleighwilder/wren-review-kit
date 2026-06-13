@@ -19,12 +19,12 @@ What this repo proves locally:
 
 The private Wren run currently records:
 
-- `162/400` ARC-AGI training exact.
-- `168/406` full black-box suite exact.
+- `167/400` ARC-AGI training exact.
+- `173/406` full black-box suite exact.
 - Weak baseline: `0`.
-- Latest black-box trial seal: `5eb2a889089db874773e03a177a2195cac94f4ebef5bcc57255babcbbdeae10c`.
+- Latest black-box trial seal: `cc1b6c42fc8284d14d285f7c45894b4e36acebc6ae34a1497c1f8622d0b1842c`.
 
-This does not mean Wren is a finished ARC solver. It means the system has a measurable, reproducible solved slice and a remaining failure map.
+This does not mean Wren is a finished ARC solver. It means the system has a measurable, reproducible solved slice and a remaining failure map — and that the slice **grows under a regression-safe loop**: the most recent pass lifted it `162 → 167` by adding three general operators, with zero regressions and every gain exact-match verified (`docs/EVOLUTION_LOG.md`). A sanitized, runnable slice of that result ships in `scripts/reproduce_arc_sample.py`.
 
 ## Claim 3: The unusual part is operator genealogy
 
